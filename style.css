@@ -10,6 +10,7 @@ body{
 	display: flex;
 	align-items: center;
 	padding: 20px;
+	max-height: 120px;
 }
 nav{
 	flex: 1;
@@ -54,6 +55,13 @@ p{
 	font-size: 50px;
 	line-height: 60px;
 	margin: 25px 0;
+	margin-left: 50px;
+}
+.col-2 p{
+	margin-left: 50px;
+}
+.col-2 a{
+	margin-left: 60px;
 }
 .btn{
 	display: inline-block;
@@ -70,8 +78,11 @@ p{
 .header{
 	background: radial-gradient(#fff,#BED0FE);
 }
+.header1{
+	background: radial-gradient(#fff,#000000);
+}
 header{
-	background: radial-gradient(#fff,#BED0FE);
+	background: radial-gradient(#fff,#FDC7FC);
 }
 .header .row{
 	margin-top: 70px;
@@ -390,6 +401,7 @@ th:last-child{
 	padding: 50px 0;
 }
 .form-container{
+	background: #fff;
 	width: 300px;
 	height: 400px;
 	position: relative;
