@@ -573,9 +573,11 @@ main{
 
 #nav-droite{
     right: 20px;
+    color: #D71717;
 }
 #nav-gauche{
     left: 20px;
+    color: #D71717;
 }
 
 .elements{
