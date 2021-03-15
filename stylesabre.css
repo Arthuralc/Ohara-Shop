@@ -71,7 +71,7 @@ hr{
 }
 .btn{
 	display: inline-block;
-	background: #00FAAA;
+	background: #000000;
 	color: #fff;
 	padding: 8px 30px;
 	margin: 30px 0;
@@ -88,7 +88,7 @@ hr{
 	background: radial-gradient(#fff,#000000);
 }
 header{
-	background: radial-gradient(#fff,#FDC7FC);
+	background: radial-gradient(#fff,#FF5252 );
 }
 .header .row{
 	margin-top: 70px;
@@ -147,7 +147,7 @@ h4{
 	font-size: 14px;
 }
 .rating .fa{
-	color: #32FDC4;
+	color: #FF3838;
 }
 .col-4:hover{
 	transform: translateX(-5px);
@@ -158,9 +158,9 @@ h4{
 	box-shadow: 6px 6px 0 #168D6B;
 }
 .border1{
-	border: inset 3px #32FDC4;
+	border: inset 3px #FF3838;
 	border-radius: 5px;
-	box-shadow: 6px 6px 0 #168D6B;
+	box-shadow: 6px 6px 0 #000000;
 }
 /*---offer-------*/
 
@@ -400,7 +400,6 @@ input:focus{
 }
 .small-img-row{
 	display: flex;
-	justify-content: space-between;
 }
 .small-img-col{
 	flex-basis: 24%;
