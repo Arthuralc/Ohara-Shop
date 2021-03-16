@@ -5,6 +5,7 @@
     <title>Ohara Store - Figurines</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="flavicon.ico">
 </head>
@@ -42,21 +43,46 @@
     <div class="small-container single-product">
         <div class="row">
     <div class="col-2">
-                <img src="kaido2.jpg" width="100%" id="ProductImg">
-                <div class="small-img-row">
-                <div class="small-img-col">
-                <img src="kaido21.jpg" width="100%" class="small-img">
+                <main>
+        <!-- Conteneur principal de tout le diaporama -->
+        <div class="diapo">
+            <!-- Conteneur des "diapos" -->
+            <div class="elements">
+                <!-- Première diapo -->
+                <div class="element active">
+                    <img src="kaido2.jpg" alt="Image 1">
+                    <div class="caption">
+                    </div>
                 </div>
-                <div class="small-img-col">
-                <img src="kaido22.jpg" width="100%"class="small-img">
+                <!-- Deuxième diapo -->
+                <div class="element">
+                    <img src="kaido21.jpg" alt="Image 2">
+                    <div class="caption">
+                    </div>
                 </div>
-                <div class="small-img-col">
-                <img src="kaido23.jpg" width="100%"class="small-img">
+                <!-- Troisième diapo -->
+                <div class="element">
+                    <img src="kaido22.jpg" alt="Image 3">
+                    <div class="caption">
+                    </div>
                 </div>
-                <div class="small-img-col">
-                <img src="kaido24.jpg" width="100%"class="small-img">
+                <!-- Quatrième diapo -->
+                <div class="element">
+                    <img src="kaido23.jpg" alt="Image 2">
+                    <div class="caption">
+                    </div>
                 </div>
+                <div class="element">
+                    <img src="kaido24.jpg" alt="Image 2">
+                    <div class="caption">
+                    </div>
                 </div>
+            </div>
+            <!-- Flèches de navigation -->
+            <i id="nav-gauche" class="las la-chevron-left"></i>
+            <i id="nav-droite" class="las la-chevron-right"></i>
+        </div>
+    </main>
             </div>
             <div class="col-2">
                 <p>One Piece</p>
@@ -70,7 +96,8 @@
         </div>
     </div>
 </div>
-
+<!-- Fichiers JS -->
+<script src="scripts.js"></script>
 <!------- products ------->
 <br>
     <div class="small-container">
